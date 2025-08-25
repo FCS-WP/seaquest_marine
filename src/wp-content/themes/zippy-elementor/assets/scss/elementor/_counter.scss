@@ -1,0 +1,110 @@
+.elementor-widget-counter {
+	.elementor-counter {
+		position: relative;
+		padding: 60px;
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    border-radius: 6px; 
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;
+		&:after {
+			content: '';
+			position: absolute;
+			right: -1px;
+			top: 25%;
+			height: 50%;
+			border-right: 1px solid #cdcdcd;
+			border-right-width: 0;
+			@media (max-width: 767px) {
+				content: none;
+			}
+		}
+
+		.elementor-counter-number-wrapper {
+			position: relative;
+			margin-bottom: -8px;
+			font-family: var(--secondary-font);
+			font-style: normal;
+			font-weight: 700;
+			font-size: 48px;
+			line-height: 56px;
+			text-transform: uppercase;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			color: var(--heading);
+			-webkit-transition: all .3s ease;
+			-moz-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
+
+			&.column {
+               flex-direction: column;
+               align-items: center;
+               margin-bottom: 0; 
+			}
+
+			&:before {
+				position: absolute;
+				content: "";
+				width: 66px;
+				height: 4px;
+				bottom: -24px;
+				left: 50%;
+				margin-left: -33px;
+				background-color: var(--secondary);
+			}
+
+			&:hover {
+				-webkit-transition: all .3s ease;
+				-moz-transition: all .3s ease;
+				-o-transition: all .3s ease;
+				transition: all .3s ease;
+			}
+
+			.icon {
+				padding-right: 16px;
+	        	i {
+	        		font-size: 44px;
+	        		color: var(--primary);
+	        	}
+	        }
+		}
+
+		.elementor-counter-title {
+			font-family: var(--secondary-font);
+			font-weight: 600;
+			font-size: 18px;
+			color: var(--text);
+			-webkit-transition: all .3s ease;
+			-moz-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
+		}
+
+		.ova-counter-behind {
+			position: absolute;
+			font-weight: bold;
+			font-size: 144px;
+			line-height: 180px;
+			color: rgba(0, 0, 0, 0.03);
+			top: 0;
+			-webkit-transition: all .3s ease;
+			-moz-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
+		}
+
+		&:hover {
+			-webkit-transition: all .3s ease;
+			-moz-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
+			.ova-counter-behind {
+				color: rgba(255, 255, 255, 0.06);
+			}
+		}
+	}
+}

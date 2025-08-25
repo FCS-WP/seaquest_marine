@@ -1,0 +1,209 @@
+.ova-testimonial{
+
+	.slide-testimonials{
+
+		.client_info{
+			padding: 40px;
+			position: relative;
+			.icon-quote{
+				i{
+					margin-left: -30px;
+					font-size: 60px;
+					line-height: 1;
+                    transform: matrix(1, 0, 0, -1, 0, 0);
+                    color: rgba(255, 255, 255, 0.2);
+				}
+			}		
+			.testimonial{
+				margin: 0;
+				margin-bottom: 62px;
+				font-family: var(--secondary-font);
+				font-weight: 700;
+				font-size: 28px;
+				line-height: 40px;
+				letter-spacing: 0.01em;
+				font-feature-settings: 'pnum' on, 'lnum' on;
+				color: #FFFFFF;
+				position: relative;
+				&:before {
+					position: absolute;
+					content: '';
+					left: 0;
+					width: 80%;
+					height: 1px;
+					bottom: -24px;
+					background-color: rgba(255, 255, 255, 0.3); 
+				}
+			}
+			.info{
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				.client{
+					margin-right: 15px;
+					img{
+						min-height: 60px;
+						max-width: 60px;
+						width: 100%;
+						border-radius: 50%;
+					}
+				}
+				.name-city{
+					p{
+						margin: 0;
+					}
+					.name{
+						font-size: 18px;
+						font-family: var(--secondary-font);
+						font-weight: 700;
+						line-height: 25px;
+						letter-spacing: 0.01em;
+						font-feature-settings: 'pnum' on, 'lnum' on;
+						color: #FFFFFF;
+						padding-bottom: 5px;
+					}
+					.city{
+						font-weight: 400;
+						font-size: 16px;
+						line-height: 21px;
+						color: #FFFFFF;
+					}
+				}
+				
+			}
+		}
+
+	}
+
+	&.version_2{
+
+		.slide-testimonials{
+
+			.owl-item.active{
+
+			}
+
+			.client_info{
+                padding: 0;
+                .icon-quote {
+                    i {
+                    	margin-left: 0;
+                    }
+                }
+				.client{
+					padding: 0 60px;
+					@media (max-width: 767px) {
+						padding: 0 30px;
+					}
+					.testimonial{
+						margin: 0;
+						text-align: center;
+						margin-bottom: 62px;
+						font-family: var(--secondary-font);
+						font-weight: 700;
+						font-size: 28px;
+						line-height: 40px;
+						letter-spacing: 0.01em;
+						font-feature-settings: 'pnum' on, 'lnum' on;
+						color: #FFFFFF;
+						position: relative;
+						&:before {
+							position: absolute;
+							content: '';
+							left: 50%;
+							width: 80%;
+							height: 1px;
+							bottom: -24px;
+							transform: translate(-50%, -50% );
+							background-color: rgba(255, 255, 255, 0.3); 
+						}
+					}
+				}
+			}
+
+			.owl-dots{
+				transition: all .3s ease;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%); 
+				display: flex;
+				align-items: center;
+
+				.owl-dot{
+
+					button{
+						transition: all .3s ease-in;
+						-o-transition: all .3s ease-in;
+						-moz-transition: all .3s ease-in;
+						position: relative;
+						background-color: unset;
+						border-radius: unset;
+						border:unset;
+						background-size: cover; 
+						background-position: center;
+						width: 72px;
+						height: 72px;
+						border-radius: 50%;
+					
+						@media (max-width: 767px) {
+							display: none;
+						}
+			            
+			            .info {
+			            	display: none;
+			            	width: calc(100% + 80px);
+                            position: absolute; 
+                            bottom: -60px;
+                            left: 50%;
+                            transform: translateX(-50%);
+			            }
+
+						.name{
+							margin: 0;
+							font-size: 18px;
+							font-family: var(--secondary-font);
+							font-weight: 700;
+							line-height: 25px;
+							letter-spacing: 0.01em;
+							font-feature-settings: 'pnum' on, 'lnum' on;
+							color: #FFFFFF;
+							padding-bottom: 5px;
+						}
+						.city{
+							margin: 0;
+							font-weight: 400;
+							font-size: 16px;
+							line-height: 21px;
+							color: #FFFFFF;
+						}
+					}
+					
+					&.active{
+						button {
+							transition: all .3s ease-out;
+							-o-transition: all .3s ease-in;
+						    -moz-transition: all .3s ease-in;
+							width: 94px;
+							height: 94px;
+							@media (max-width: 630px) {
+								width: 72px;
+							    height: 72px;
+							}
+							.info {
+								display: block;
+							}
+						}
+					}
+
+					&:not(:last-child) {
+						button {
+							margin-right: 56px;
+						}
+					}
+				}
+			}
+
+		}
+	}
+
+}

@@ -1,0 +1,197 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b00928aa99a1c46564a7f52a5c428c4b") format("truetype"),
+url("./flaticon.woff?b00928aa99a1c46564a7f52a5c428c4b") format("woff"),
+url("./flaticon.woff2?b00928aa99a1c46564a7f52a5c428c4b") format("woff2"),
+url("./flaticon.eot?b00928aa99a1c46564a7f52a5c428c4b#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b00928aa99a1c46564a7f52a5c428c4b#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "lorry": "\f101",
+    "boat": "\f102",
+    "air-freight": "\f103",
+    "airplane": "\f104",
+    "train": "\f105",
+    "warehouse": "\f106",
+    "custom-clearance": "\f107",
+    "logistics-delivery": "\f108",
+    "express-delivery": "\f109",
+    "target": "\f10a",
+    "customer": "\f10b",
+    "trophy": "\f10c",
+    "team": "\f10d",
+    "send": "\f10e",
+    "send-message": "\f10f",
+    "interest-rate": "\f110",
+    "on-time": "\f111",
+    "monitor": "\f112",
+    "fast-delivery": "\f113",
+    "fast": "\f114",
+    "24-hours": "\f115",
+    "protection": "\f116",
+    "customize": "\f117",
+    "price": "\f118",
+    "wall-clock": "\f119",
+    "increase": "\f11a",
+    "box": "\f11b",
+    "warehouse-1": "\f11c",
+    "data-warehouse": "\f11d",
+    "warehouse-2": "\f11e",
+    "package": "\f11f",
+    "safe": "\f120",
+    "24-hours-1": "\f121",
+    "group": "\f122",
+    "idea": "\f123",
+    "arrows": "\f124",
+    "job-offer": "\f125",
+    "job-offer-1": "\f126",
+    "checked": "\f127",
+    "import": "\f128",
+    "export": "\f129",
+    "declaration": "\f12a",
+    "hot-sale": "\f12b",
+);
+
+.flaticon-lorry:before {
+    content: map-get($flaticon-map, "lorry");
+}
+.flaticon-boat:before {
+    content: map-get($flaticon-map, "boat");
+}
+.flaticon-air-freight:before {
+    content: map-get($flaticon-map, "air-freight");
+}
+.flaticon-airplane:before {
+    content: map-get($flaticon-map, "airplane");
+}
+.flaticon-train:before {
+    content: map-get($flaticon-map, "train");
+}
+.flaticon-warehouse:before {
+    content: map-get($flaticon-map, "warehouse");
+}
+.flaticon-custom-clearance:before {
+    content: map-get($flaticon-map, "custom-clearance");
+}
+.flaticon-logistics-delivery:before {
+    content: map-get($flaticon-map, "logistics-delivery");
+}
+.flaticon-express-delivery:before {
+    content: map-get($flaticon-map, "express-delivery");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-customer:before {
+    content: map-get($flaticon-map, "customer");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.flaticon-send-message:before {
+    content: map-get($flaticon-map, "send-message");
+}
+.flaticon-interest-rate:before {
+    content: map-get($flaticon-map, "interest-rate");
+}
+.flaticon-on-time:before {
+    content: map-get($flaticon-map, "on-time");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-fast-delivery:before {
+    content: map-get($flaticon-map, "fast-delivery");
+}
+.flaticon-fast:before {
+    content: map-get($flaticon-map, "fast");
+}
+.flaticon-24-hours:before {
+    content: map-get($flaticon-map, "24-hours");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon-map, "protection");
+}
+.flaticon-customize:before {
+    content: map-get($flaticon-map, "customize");
+}
+.flaticon-price:before {
+    content: map-get($flaticon-map, "price");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
+.flaticon-increase:before {
+    content: map-get($flaticon-map, "increase");
+}
+.flaticon-box:before {
+    content: map-get($flaticon-map, "box");
+}
+.flaticon-warehouse-1:before {
+    content: map-get($flaticon-map, "warehouse-1");
+}
+.flaticon-data-warehouse:before {
+    content: map-get($flaticon-map, "data-warehouse");
+}
+.flaticon-warehouse-2:before {
+    content: map-get($flaticon-map, "warehouse-2");
+}
+.flaticon-package:before {
+    content: map-get($flaticon-map, "package");
+}
+.flaticon-safe:before {
+    content: map-get($flaticon-map, "safe");
+}
+.flaticon-24-hours-1:before {
+    content: map-get($flaticon-map, "24-hours-1");
+}
+.flaticon-group:before {
+    content: map-get($flaticon-map, "group");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-arrows:before {
+    content: map-get($flaticon-map, "arrows");
+}
+.flaticon-job-offer:before {
+    content: map-get($flaticon-map, "job-offer");
+}
+.flaticon-job-offer-1:before {
+    content: map-get($flaticon-map, "job-offer-1");
+}
+.flaticon-checked:before {
+    content: map-get($flaticon-map, "checked");
+}
+.flaticon-import:before {
+    content: map-get($flaticon-map, "import");
+}
+.flaticon-export:before {
+    content: map-get($flaticon-map, "export");
+}
+.flaticon-declaration:before {
+    content: map-get($flaticon-map, "declaration");
+}
+.flaticon-hot-sale:before {
+    content: map-get($flaticon-map, "hot-sale");
+}

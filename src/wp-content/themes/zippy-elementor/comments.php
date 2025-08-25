@@ -1,78 +1,69 @@
-<?php
-/**
- * The template for displaying the list of comments and the comment form.
- *
- * @package HelloElementor
- */
+<?php if (post_password_required()) return; ?>
+        
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
-}
+<div id="comments" class="comments">
 
-if ( ! post_type_supports( get_post_type(), 'comments' ) ) {
-	return;
-}
+    <?php if(have_comments()): ?>
+        
+        <h3 class="title-comments">
+            <?php
+                $comments_number = get_comments_number();
+                if ( '1' === $comments_number ) {
+                    printf( esc_html_x( 'One Comment', 'comments title', 'transflash' ) );
+                } else {
+                    printf(
+                        esc_html( /* translators: 1: number of comments */
+                            _nx(
+                                '%1$s Comment',
+                                '%1$s Comments',
+                                $comments_number,
+                                'comments title',
+                                'transflash'
+                            )
+                        ),
+                        esc_html( number_format_i18n( $comments_number ) )
+                    );
+                }
+                ?>
+        </h3>
 
-if ( ! have_comments() && ! comments_open() ) {
-	return;
-}
+        <?php the_comments_navigation(); ?>
 
-// Comment Reply Script.
-if ( comments_open() && get_option( 'thread_comments' ) ) {
-	wp_enqueue_script( 'comment-reply' );
-}
-?>
-<section id="comments" class="comments-area">
+            <ul class="comment-lists">
+                <?php 
+                    wp_list_comments(
+                        array(
+                            'style'       => 'ul',
+                            'short_ping'  => true,
+                            'avatar_size' => 42,
+                            'callback'   => function($comment, $args, $depth){
+                                include get_theme_file_path('template-parts/parts/comment.php');
+                            },
+                        )
+                    );
 
-	<?php if ( have_comments() ) : ?>
-		<h2 class="title-comments">
-			<?php
-			$comments_number = get_comments_number();
-			if ( '1' === $comments_number ) {
-				printf( esc_html_x( 'One Response', 'comments title', 'hello-elementor' ) );
-			} else {
-				printf(
-					/* translators: %s: Number of comments. */
-					esc_html(
-						_nx(
-							'%s Response',
-							'%s Responses',
-							$comments_number,
-							'comments title',
-							'hello-elementor'
-						)
-					),
-					esc_html( number_format_i18n( $comments_number ) )
-				);
-			}
-			?>
-		</h2>
+                 ?>
+            </ul>
 
-		<?php the_comments_navigation(); ?>
+        <?php the_comments_navigation(); ?>
+       
+        
+    <?php endif; ?>
 
-		<ol class="comment-list">
-			<?php
-			wp_list_comments(
-				[
-					'style'       => 'ol',
-					'short_ping'  => true,
-					'avatar_size' => 42,
-				]
-			);
-			?>
-		</ol>
+    <?php if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) : ?>
+        <p class="no-comments">
+            <?php esc_html_e( 'Comments are closed.', 'transflash' ); ?>
+        </p>
+    <?php endif; ?>
 
-		<?php the_comments_navigation(); ?>
+   <?php 
+       comment_form(
+            array(
+                'title_reply_before' => '<h3 id="reply-title" class="comment-reply-title">',
+                'title_reply_after'  => '</h3>',
+            )
+        );
+    ?>
 
-	<?php endif; ?>
 
-	<?php
-	comment_form(
-		[
-			'title_reply_before' => '<h2 id="reply-title" class="comment-reply-title">',
-			'title_reply_after'  => '</h2>',
-		]
-	);
-	?>
-
-</section>
+</div><!-- end comments -->

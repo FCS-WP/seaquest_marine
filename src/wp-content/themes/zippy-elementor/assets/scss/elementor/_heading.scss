@@ -1,0 +1,24 @@
+.ova-heading {
+
+    .title {
+        margin: 0;
+        font-family: var(--secondary-font);
+        padding-bottom: 20px;
+        color: var(--heading);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.01em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+
+     .description {
+        margin: 0;
+        color: var(--text);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    
+}

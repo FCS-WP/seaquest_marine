@@ -1,14 +1,12 @@
 <?php
-/**
- * The template for displaying sidebar.
- *
- * @package HelloElementor
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+$sidebar = apply_filters( 'transflash_theme_sidebar', '' );
+if ($sidebar == 'layout_1c' || $sidebar == ''){
+    return;
 }
+?>
 
-/**
- * This file is here to avoid the Deprecated Message for sidebar by wp-includes/theme-compat/sidebar.php.
- */
+<?php if(is_active_sidebar('main-sidebar')){ ?>
+        <aside id="sidebar" class="sidebar">
+            <?php  dynamic_sidebar('main-sidebar'); ?>
+        </aside>
+<?php } ?>
