@@ -1,0 +1,17 @@
+#woocommerce-cart-shortcode {
+  .return-to-shop {
+    .wc-backward {
+      background-color: var(--e-global-color-46d3654);
+      color: var(--e-global-color-a8ce9db);
+      &:hover {
+        background-color: var(--e-global-color-d9c8801);
+      }
+    }
+  }
+  .woocommerce-info{
+    border-top-color:var(--e-global-color-46d3654) ;
+    &::before{
+        color: var(--e-global-color-46d3654);
+    }
+  }
+}

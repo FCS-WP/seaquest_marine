@@ -1,0 +1,172 @@
+.ova-team-3{
+	
+	.content{
+
+		  display: grid;
+		  grid-gap: 30px;
+		  
+
+		  &.four_column{
+		  	grid-template-columns: auto auto auto auto;	
+		  	@media( max-width: 1200px ){
+				grid-template-columns: auto auto;
+			}
+			@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		  }
+
+		  &.three_column{
+		  	grid-template-columns: auto auto auto;	
+		  	@media( max-width: 1200px ){
+				grid-template-columns: auto auto;
+			}
+			@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		  }
+
+		  &.two_column{
+		  	grid-template-columns: auto auto;	
+		  	@media( max-width: 767px ){
+				grid-template-columns: auto;	
+			}
+		  }
+
+
+		
+		.item-team {
+            &:hover {
+            	.img {
+            		.mask {
+            			-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+            			opacity: 1;
+            		}
+            		.team-img {
+            			-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+						transform: scale(1.05);
+            		}
+            	}
+            	.info {
+            		.name {
+            			-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+            			color: var(--primary);
+            			a {
+            				-webkit-transition: all .3s ease;
+							-moz-transition: all .3s ease;
+							-o-transition: all .3s ease;
+                            color: var(--primary);
+            			}
+            		}
+            	}
+            }
+			.img {
+				overflow: hidden;
+				position: relative;
+				margin-bottom: 20px;
+				.mask {
+					opacity: 0;
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+                    background: linear-gradient(0deg, rgba(71, 191, 111, 0.2), rgba(71, 191, 111, 0.2));
+			        position: absolute;
+			        bottom: 0;
+			        left: 0;
+			        width: 100%;
+			        height: 100%;
+			        content: "";
+				}
+				.team-img {
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					width: 100%;
+					display: block;
+				}
+			}
+
+			.info {
+				.name {
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					margin: 0 auto;
+					padding-bottom: 8px;
+		            font-weight: 700;
+					font-size: 22px;
+					line-height: 26px;
+					color: var(--heading);
+					text-transform: capitalize;
+					font-feature-settings: 'pnum' on, 'lnum' on;
+					a{
+						-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+						color: #000;	
+					}
+				}
+				.job {
+					margin: 0;
+                    font-family: var(--secondary-font);
+					color: var(--text);
+					font-weight: normal;
+					font-size: 16px;
+			    }
+			}
+
+			.list-icon {
+				padding-top: 16px;
+				ul {
+					list-style-type: none;
+					display: flex;
+					justify-content: flex-start;
+					align-item: center;
+					margin-block-start: 0;
+					margin-block-end: 0;
+					padding-inline-start: 0;
+					.item {
+						&:not(:last-child) {
+		                    margin-right: 12px;
+		                }
+						a {
+		                    width: 30px;
+						    height: 30px;
+						    display: flex;
+						    justify-content: center;
+						    align-items: center;
+							i {
+								-webkit-transition: all .3s ease;
+								-moz-transition: all .3s ease;
+								-o-transition: all .3s ease;
+								display: inline-flex;
+								font-size: 18px;
+								color: #dcdcdc;
+							}
+						}
+						&:hover {
+							a {
+								background-color: #fff;
+                                box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.05);
+								i {
+									-webkit-transition: all .3s ease;
+									-moz-transition: all .3s ease;
+									-o-transition: all .3s ease;
+									color: var(--primary);
+								}
+							}
+						}
+					}
+				}
+		    }
+		}
+	}	
+}
+
+

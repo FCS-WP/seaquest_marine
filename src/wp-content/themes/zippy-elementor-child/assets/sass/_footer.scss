@@ -1,0 +1,18 @@
+#footer-menu {
+  ul{
+    li {
+      a {
+        padding-left: 0;
+        &::after {
+          display: none;
+        }
+        &:hover{
+          padding-left: 0;
+        }
+      }
+      ul{
+        margin-left: 120px !important;
+      }
+    }
+  }
+}

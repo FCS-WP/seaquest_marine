@@ -1,0 +1,22 @@
+.contact-us-staff-box {
+  padding: 28px;
+  &:hover {
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 28px 66px rgba(0, 0, 0, 0.15);
+  }
+  .ova-contact-info {
+    .contact {
+      .label {
+        font-size: 16px;
+        color:var(--e-global-color-text);
+        margin-bottom: 0;
+      }
+      .info{
+        .item{
+            font-weight: 400;
+        }
+      }
+    }
+  }
+}

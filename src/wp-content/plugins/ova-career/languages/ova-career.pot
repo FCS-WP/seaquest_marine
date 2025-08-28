@@ -1,0 +1,587 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovatheme Career\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-03 08:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.1.1\n"
+"X-Domain: ova-career"
+
+#: inc/class-customize.php:62
+msgid "2 column"
+msgstr ""
+
+#: inc/class-customize.php:63
+msgid "3 column"
+msgstr ""
+
+#: inc/class-customize.php:64
+msgid "4 column"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:135
+#: elementor/widgets/ova_hot_career.php:96
+msgid "Active Icon"
+msgstr ""
+
+#: admin/class-ova-metabox.php:120
+msgid "Add Benefits"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:26 inc/class-ova-custom-post-type.php:27
+msgid "Add New Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:66 inc/class-ova-custom-post-type.php:67
+msgid "Add New Category"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:71
+msgid "Add or remove items"
+msgstr ""
+
+#: admin/class-ova-metabox.php:139
+msgid "Add Responsibility"
+msgstr ""
+
+#: admin/class-ova-metabox.php:158
+msgid "Add Skill"
+msgstr ""
+
+#: admin/class-ova-metabox.php:83
+msgid "Age"
+msgstr ""
+
+#: templates/single-career.php:115
+msgid "Age:"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:25
+msgid "All Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:62
+msgid "All Category Career"
+msgstr ""
+
+#: templates/single-career.php:190 templates/single-career.php:195
+msgid "Apply for this job"
+msgstr ""
+
+#: admin/class-ova-metabox.php:58
+msgid "Availability"
+msgstr ""
+
+#: templates/archive-career.php:55 templates/single-career.php:99
+#: templates/elementor/ova_archive_career.php:53
+#: templates/elementor/ova_hot_career.php:49
+msgid "Availability:"
+msgstr ""
+
+#: inc/class-customize.php:92
+msgid "Background Archive Career"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:453
+#: elementor/widgets/ova_archive_career.php:482
+#: elementor/widgets/ova_hot_career.php:325
+#: elementor/widgets/ova_hot_career.php:354
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:536
+#: elementor/widgets/ova_archive_career.php:567
+#: elementor/widgets/ova_hot_career.php:408
+#: elementor/widgets/ova_hot_career.php:439
+msgid "Background Color "
+msgstr ""
+
+#: inc/class-customize.php:105
+msgid "Background Single Career"
+msgstr ""
+
+#: admin/class-ova-metabox.php:117 admin/class-ova-metabox.php:119
+msgid "Benefits"
+msgstr ""
+
+#: templates/single-career.php:151
+msgid "Benefits :"
+msgstr ""
+
+#: templates/archive-career.php:90
+#: templates/elementor/ova_archive_career.php:88
+#: templates/elementor/ova_hot_career.php:73
+msgid "Benefits:"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:500
+#: elementor/widgets/ova_hot_career.php:372
+msgid "Button"
+msgstr ""
+
+#. Description of the plugin
+#: inc/class-customize.php:25 inc/class-ova-custom-post-type.php:20
+#: inc/class-ova-custom-post-type.php:21
+#: elementor/class-ova-register-elementor.php:56
+msgid "Career"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:22
+msgid "Career Archive"
+msgstr ""
+
+#: admin/class-ova-metabox.php:36
+msgid "Career Detail Thumbnail"
+msgstr ""
+
+#: admin/class-ova-metabox.php:26
+msgid "Career settings"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:91
+msgctxt "Career Slug"
+msgid "cat_career"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:66
+msgid "Category"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:61
+msgid "Category Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:72
+msgid "Choose from the most used"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:254
+#: elementor/widgets/ova_archive_career.php:443
+#: elementor/widgets/ova_archive_career.php:472
+#: elementor/widgets/ova_archive_career.php:525
+#: elementor/widgets/ova_archive_career.php:556
+#: elementor/widgets/ova_hot_career.php:315
+#: elementor/widgets/ova_hot_career.php:344
+#: elementor/widgets/ova_hot_career.php:397
+#: elementor/widgets/ova_hot_career.php:428
+msgid "Color"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:204
+#: elementor/widgets/ova_archive_career.php:302
+#: elementor/widgets/ova_archive_career.php:329
+#: elementor/widgets/ova_archive_career.php:378
+#: elementor/widgets/ova_archive_career.php:405
+#: elementor/widgets/ova_hot_career.php:174
+#: elementor/widgets/ova_hot_career.php:201
+#: elementor/widgets/ova_hot_career.php:250
+#: elementor/widgets/ova_hot_career.php:277
+msgid "Color "
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:265
+#: elementor/widgets/ova_archive_career.php:416
+#: elementor/widgets/ova_hot_career.php:288
+msgid "Color Circle"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:215
+msgid "Color hover"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:42
+#: elementor/widgets/ova_archive_career.php:313
+#: elementor/widgets/ova_archive_career.php:389
+#: elementor/widgets/ova_hot_career.php:42
+#: elementor/widgets/ova_hot_career.php:185
+#: elementor/widgets/ova_hot_career.php:261
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:90
+msgid "Custom Order"
+msgstr ""
+
+#: admin/class-ova-metabox.php:127 admin/class-ova-metabox.php:146
+#: admin/class-ova-metabox.php:165
+msgid "Description"
+msgstr ""
+
+#: templates/single-career.php:93
+msgid "Detail :"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:29
+msgid "Edit Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:68
+msgid "Edit Category"
+msgstr ""
+
+#: admin/class-ova-metabox.php:75
+msgid "Experience"
+msgstr ""
+
+#: templates/single-career.php:107
+msgid "Experience:"
+msgstr ""
+
+#: admin/class-ova-metabox.php:91
+msgid "Gender"
+msgstr ""
+
+#: templates/single-career.php:123
+msgid "Gender:"
+msgstr ""
+
+#: inc/class-customize.php:121
+msgid "Header Archive"
+msgstr ""
+
+#: inc/class-customize.php:155
+msgid "Header Single"
+msgstr ""
+
+#: elementor/widgets/ova_hot_career.php:22
+msgid "Hot Career"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:466
+#: elementor/widgets/ova_archive_career.php:549
+#: elementor/widgets/ova_hot_career.php:338
+#: elementor/widgets/ova_hot_career.php:421
+msgid "Hover"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/ovatheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/ovatheme/portfolio"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:107
+#: elementor/widgets/ova_archive_career.php:427
+#: elementor/widgets/ova_hot_career.php:68
+#: elementor/widgets/ova_hot_career.php:299
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:174
+#: elementor/widgets/ova_hot_career.php:135
+msgid "Icon Button"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:89
+msgid "ID"
+msgstr ""
+
+#: elementor/widgets/ova_hot_career.php:52
+msgid "ID of post in career you want to display"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:278
+#: elementor/widgets/ova_hot_career.php:150
+msgid "Info"
+msgstr ""
+
+#: admin/class-ova-metabox.php:190
+msgid "Insert Number"
+msgstr ""
+
+#: admin/class-ova-metabox.php:182
+msgid "Instead of using the link you can enter the Shortcode Contact Form"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:22
+msgid "Item Archives"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:23
+msgid "Item Attributes"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:77
+msgid "Items list"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:78
+msgid "Items list navigation"
+msgstr ""
+
+#: admin/class-ova-metabox.php:107
+msgid "Job Description"
+msgstr ""
+
+#: templates/single-career.php:47
+msgid "Job description"
+msgstr ""
+
+#: templates/archive-career.php:83
+msgid "Join our team"
+msgstr ""
+
+#: inc/class-customize.php:57
+msgid "Layout"
+msgstr ""
+
+#: inc/class-customize.php:77
+msgid "Link All Career"
+msgstr ""
+
+#: admin/class-ova-metabox.php:173
+msgid "Link to Apply"
+msgstr ""
+
+#: admin/class-ova-metabox.php:174
+msgid "Link used in Career Detail for Apply Career Button (Prioritize)"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:28
+msgid "New Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:65
+msgid "New Item Name"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:60
+msgid "No content Category found"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:76
+msgid "No items"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:437
+#: elementor/widgets/ova_archive_career.php:518
+#: elementor/widgets/ova_hot_career.php:309
+#: elementor/widgets/ova_hot_career.php:390
+msgid "Normal"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:75
+msgid "Not Found"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:33
+msgid "Not found"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:34
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/class-customize.php:40
+msgid "Number of posts per page"
+msgstr ""
+
+#: templates/single-career.php:85
+msgid "Offer salary :"
+msgstr ""
+
+#: admin/class-ova-metabox.php:51
+msgid "Offered Salary"
+msgstr ""
+
+#: templates/archive-career.php:46
+#: templates/elementor/ova_archive_career.php:44
+#: templates/elementor/ova_hot_career.php:40
+msgid "Offered Salary:"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:85
+msgid "OrderBy Post"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovatheme"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ovatheme Career"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:226
+#: elementor/widgets/ova_archive_career.php:340
+#: elementor/widgets/ova_archive_career.php:582
+#: elementor/widgets/ova_hot_career.php:212
+#: elementor/widgets/ova_hot_career.php:454
+msgid "Padding"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:63
+msgid "Parent Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:24 inc/class-ova-custom-post-type.php:64
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:73
+msgid "Popular Items"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:188
+msgid "Position"
+msgstr ""
+
+#: templates/archive-career.php:37 templates/single-career.php:74
+#: templates/elementor/ova_archive_career.php:35
+#: templates/elementor/ova_hot_career.php:33
+msgid "Position :"
+msgstr ""
+
+#: elementor/widgets/ova_hot_career.php:49
+msgid "Post Career ID"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:37
+msgid "Post Type Description"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:18
+msgctxt "Post Type General Name"
+msgid "Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:59
+msgctxt "Post Type General Name"
+msgid "Category Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:19
+msgctxt "Post Type Singular Name"
+msgid "Career"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:60
+msgctxt "Post Type Singular Name"
+msgid "Category Career"
+msgstr ""
+
+#: admin/class-ova-metabox.php:99
+msgid "Qualification"
+msgstr ""
+
+#: templates/single-career.php:139
+msgid "Qualification:"
+msgstr ""
+
+#: admin/class-ova-metabox.php:121 admin/class-ova-metabox.php:140
+#: admin/class-ova-metabox.php:159
+msgid "Remove"
+msgstr ""
+
+#: admin/class-ova-metabox.php:136 admin/class-ova-metabox.php:138
+msgid "Responsibility"
+msgstr ""
+
+#: templates/single-career.php:169
+msgid "Responsibility :"
+msgstr ""
+
+#: templates/archive-career.php:108
+#: templates/elementor/ova_archive_career.php:106
+#: templates/elementor/ova_hot_career.php:95
+msgid "Responsibility:"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:32
+msgid "Search Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:74
+msgid "Search Items"
+msgstr ""
+
+#: templates/archive-career.php:76
+#: templates/elementor/ova_archive_career.php:74
+msgid "See more"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:70
+msgid "Separate items with commas"
+msgstr ""
+
+#: admin/class-ova-metabox.php:181
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-ova-metabox.php:155 admin/class-ova-metabox.php:157
+#: templates/single-career.php:57
+msgid "Skill"
+msgstr ""
+
+#: admin/class-ova-metabox.php:188
+msgid "Sort Order"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:238
+#: elementor/widgets/ova_archive_career.php:286
+#: elementor/widgets/ova_archive_career.php:362
+#: elementor/widgets/ova_hot_career.php:158
+#: elementor/widgets/ova_hot_career.php:234
+msgid "Text"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:165
+#: elementor/widgets/ova_hot_career.php:126
+msgid "Text Button"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:100
+#: elementor/widgets/ova_archive_career.php:354
+#: elementor/widgets/ova_hot_career.php:61
+#: elementor/widgets/ova_hot_career.php:226
+msgid "Toggle"
+msgstr ""
+
+#: elementor/widgets/ova_archive_career.php:76
+msgid "Total"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:48
+msgctxt "URL slug"
+msgid "ova_career"
+msgstr ""
+
+#: admin/class-ova-metabox.php:37 admin/class-ova-metabox.php:76
+#: admin/class-ova-metabox.php:84 admin/class-ova-metabox.php:92
+#: admin/class-ova-metabox.php:100 admin/class-ova-metabox.php:108
+#: admin/class-ova-metabox.php:166
+msgid "Use in Career Detail"
+msgstr ""
+
+#: admin/class-ova-metabox.php:65
+msgid "Vacancy"
+msgstr ""
+
+#: templates/archive-career.php:64 templates/single-career.php:131
+#: templates/elementor/ova_archive_career.php:62
+#: templates/elementor/ova_hot_career.php:58
+msgid "Vacancy:"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:30 inc/class-ova-custom-post-type.php:69
+msgid "View Item"
+msgstr ""
+
+#: inc/class-ova-custom-post-type.php:31
+msgid "View Items"
+msgstr ""
+
+#: templates/archive-career.php:14
+msgid "You may interest in"
+msgstr ""

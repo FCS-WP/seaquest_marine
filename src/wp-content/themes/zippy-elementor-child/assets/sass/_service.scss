@@ -1,0 +1,20 @@
+#service-list-section {
+  .content {
+    gap: 20px;
+    .item-service {
+      height: 100%;
+      .img {
+        display: block;
+        height: 100%;
+        a {
+          height: 100%;
+          img {
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+      }
+    }
+  }
+}
