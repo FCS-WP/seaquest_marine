@@ -1,0 +1,11 @@
+#catalogue-list-grid {
+  .elementor-widget-container {
+    .elementor-image-box-img {
+      width: 200px;
+      img {
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}

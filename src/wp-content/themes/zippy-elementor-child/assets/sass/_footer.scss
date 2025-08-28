@@ -1,0 +1,14 @@
+#footer-menu {
+  ul {
+    li {
+      a {
+        &::after {
+          display: none;
+        }
+      }
+      ul {
+        margin-left: 120px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+#header-wordpress-menu {
+  nav {
+    ul {
+      li {
+        a {
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,245 @@
+.ova-team-slider-2{
+
+	.slide-team-2 {
+         .item {
+         	&:hover {
+				.ova-media {
+					.mask {
+						opacity: 1;
+					}
+					.img-responsive {
+						transform: scale(1.1);
+					}
+					.ova-social {
+						-webkit-transition: all .3s ease;
+						-moz-transition: all .3s ease;
+						-o-transition: all .3s ease;
+						opacity: 1;
+						bottom: 16px;
+				 		visibility: visible;
+				    }
+				}
+			}
+
+			.content_info{
+				text-align: center;
+			}
+
+			.ova-media{
+				text-align: center;
+				position: relative;
+				overflow: hidden; 
+				padding-bottom: 0px;
+
+				.img-responsive {
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+					display: block;
+					width: 100%;
+				}
+
+				.mask {
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+			        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 62.64%, rgba(0, 0, 0, 0.8) 100%);
+			        position: absolute;
+			        bottom: 0;
+			        left: 0;
+			        width: 100%;
+			        height: 100%;
+			        content: "";
+			        border-radius: 5px;
+			        opacity: 0;
+		        }
+
+				.ova-social {
+					position: absolute;
+					left: 50%;
+					bottom: -16px;
+					transform: translate(-50%, -50%) ;
+					-webkit-transition: all .3s ease;
+					-moz-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					visibility: hidden;
+					opacity: 0;
+					ul {
+						list-style-type: none;
+						display: flex;
+						justify-content: center;
+						align-item: center;
+						margin-block-start: 0;
+						margin-block-end: 0;
+						padding-inline-start: 0;
+						li {
+							&:not(:last-child) {
+			                    margin-right: 16px;
+			                }
+							a {
+			                    width: 32px;
+							    height: 32px;
+							    border-radius: 2px;
+							    background: rgba(255, 255, 255, 0.2);
+							    display: flex;
+							    justify-content: center;
+							    align-items: center;
+								i {
+									display: inline-flex;
+									font-size: 20px;
+									color: #dadada;
+								}
+							}
+							&:hover {
+								a {
+									i {
+			                             color: var(--secondary)
+									}
+								}
+							}
+						}
+					}
+			    }
+			}
+
+			.ova-info-content {
+				text-align: center;
+				background-color: #fff;
+				padding: 20px;
+                 
+				.name {
+					display: block;
+					margin: 0;
+					font-family: var(--secondary-font);
+					margin-bottom: 24px;
+		            font-weight: bold;
+		            color: #000;
+					font-size: 24px;
+					line-height: 30px;
+					position: relative;
+
+					&:hover{
+						color: var(--primary);
+					}	
+
+					&:before {
+						position: absolute;
+						left: 50%;
+						bottom: -14px;
+						transform: translate(-50%, -50%) ;
+						content: '';
+						width: 308px;
+						background: rgba(215, 182, 121, 0.5);
+						height: 1px;
+					}
+				}
+
+				.job {
+					margin: 0;
+					font-size: 18px;
+			    }
+
+			    .ova-email, .ova-phone {
+                	display: inline-flex;
+                	justify-content: flex-start;
+                	align-items: center;
+                   i {
+                   	    color: var(--secondary);
+						font-size: 23px;
+						margin-right: 15px;
+                   }
+                   a {
+                     	color: #000;
+                     	font-weight: 500;
+						font-size: 16px;
+						position: relative;
+
+						&:before{
+							position: absolute;
+						    content: '';
+						    width: 0%;
+						    height: 1px;
+						    left: 0px;
+						    bottom: 0px;
+						    transition: all 500ms ease;
+						    background-color: var(--secondary);
+						}
+
+						&:hover{
+							color: var(--primary);
+							&:before{
+								width: 100%;
+							}
+						}
+                   }
+                }
+			}
+		}
+        
+        .owl-nav {
+			transition: all .3s ease;
+			.owl-prev, .owl-next {
+				position: absolute;
+				top: calc(50% - 45px);
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				transition: all .3s ease;
+				font-size: 32px;
+				color: #000;
+				background-color: #fff;
+				@media screen and (max-width:767px ) {
+					top: 45%;
+					width: 45px;
+					height: 45px;
+				}
+				&:hover {
+					transition: all .3s ease;
+					background-color: var(--secondary);
+					color: #fff;
+				}
+			}
+			.owl-prev {
+				left: -30px;
+			    @media screen and (max-width:1024px ){
+					left: 10px;
+				}	
+			}
+			.owl-next {
+				right: -30px;
+				@media screen and (max-width:1024px ){
+					right: 10px;
+				}	
+			}
+	    }
+
+		.owl-dots {
+			text-align: center;
+			margin-top: 70px;
+			.owl-dot{
+				outline: none;
+				span{
+					width: 13px;
+					height: 7px;
+					margin: 0 3px;
+					background: rgba(174, 174, 174, 0.4);
+					display: block;
+					-webkit-backface-visibility: visible;
+					transition: opacity .2s ease;
+					border-radius: 30px;
+				}
+				&.active{
+					span{
+						background-color: #aeaeae;
+						width: 25px;
+						border-radius: 5px;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+
+}
+	

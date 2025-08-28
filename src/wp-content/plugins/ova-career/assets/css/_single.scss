@@ -1,0 +1,283 @@
+.ova_career_single{
+    padding-bottom: 120px;
+    @media (max-width: 1024px) {
+    	padding-bottom: 70px;
+    }
+	.description{
+		
+		clear: both;
+		width: 100%;
+	}
+
+	.shortcode {
+		transition: all .2s ease-out; 
+		-o-transition: all .2s ease-out;
+		-moz-transition: all .2s ease-out;
+		opacity: 0;
+		visibility: hidden;
+		height: 0;
+		&.toggled {
+			transition: all .5s ease; 
+			-o-transition: all .5s ease;
+			-moz-transition: all .5s ease;
+			opacity: 1;
+			visibility: visible;
+			height: auto;
+			margin-top: 100px;
+			@media (max-width: 1024px) {
+				margin-top: 60px;
+			}
+		}
+	}
+
+	.info{
+
+		display: grid;
+		grid-template-columns: 1.1fr 1fr ;
+		grid-column-gap: 80px ;
+		@media (max-width: 1024px) {
+			grid-template-columns: auto;
+		}
+
+		.heading {
+	    	margin: 0 0 24px 0;
+			font-weight: 700;
+			font-size: 22px;
+			line-height: 26px;
+			letter-spacing: 0.01em;
+			font-feature-settings: 'pnum' on, 'lnum' on;
+			&.salary-heading {
+				display: inline-block;
+				margin: 0; 
+				padding-right: 16px;
+			}
+	    }
+
+		/*Career Description*/
+		.career-description{
+
+			border-bottom: 1px solid #d6d5d5;
+
+			@media (max-width: 1024px) {
+				padding-bottom: 30px;
+				margin-bottom: 70px; 
+			}
+			
+			.img {
+				padding-bottom: 50px;
+				img {
+				   vertical-align: middle;
+				}
+			}
+			.job-description {
+				position: relative;
+				padding-left: 22px;
+				margin-bottom: 40px;
+				&:before {
+					content: "";
+					position: absolute;
+                    left:0;
+                    top: 10px;
+                    border-radius: 50%;
+                    width: 6px;
+                    height: 6px;
+                    background-color: var(--primary);
+				}
+				ul {
+					padding-inline-start: 12px;
+					margin-block-start: 0;
+					padding-right: 40px;
+					@media (max-width: 767px) {
+						padding-right: 0;
+					}
+					li {
+						&::marker {
+							font-size: 10px;
+						}
+						&:not(:last-child) {
+		    				margin-bottom: 20px;
+		    			}
+					}
+				}
+			}
+
+			.skill {
+				position: relative;
+				padding-left: 22px;
+				&:before {
+					content: "";
+					position: absolute;
+                    left:0;
+                    top: 10px;
+                    border-radius: 50%;
+                    width: 6px;
+                    height: 6px;
+                    background-color: var(--primary);
+				}
+				.skill-wrapper {
+					display: inline-block;
+					background-color: #f5f5f5; 
+					border-radius: 26px;
+					padding:12px 16px;
+					margin-right: 20px;
+					margin-bottom: 12px; 
+					font-family: var(--secondary-font);
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 26px;
+					color: rgba(0, 0, 0, 0.95);
+				}
+			}
+		}	
+
+		/*Main Content*/
+		.main_content {
+
+		    .top {
+				display: grid;
+				grid-template-columns: auto;
+				.heading {
+					font-weight: 600;
+				}
+
+				.position {
+					margin: 0;
+					padding-bottom: 24px; 
+					font-size: 44px;
+					line-height: 60px;
+					letter-spacing: 0.01em;
+					font-feature-settings: 'pnum' on, 'lnum' on;
+					font-weight: 700;
+					&:hover {
+						color: var(--primary);
+					}
+				}
+
+				.divider {
+					content: '';
+				    width: 100%;
+				    max-width: 174px;
+				    height: 2px;
+				    transition: all 500ms ease;
+				    background-color: var(--primary);
+				    margin-bottom: 40px;
+				}
+			}	
+
+		    .salary {
+		    	margin-bottom: 28px;
+		    	padding-left: 22px;
+		    	position: relative;
+		    	font-family: var(--primary-font);
+		    	color: var(--primary);
+				font-weight: 700;
+				font-size: 28px;
+                line-height: 40px;
+				letter-spacing: 0.01em;
+				font-feature-settings: 'pnum' on, 'lnum' on;
+				&:before {
+					content: "";
+					position: absolute;
+                    left:0;
+                    top: 19px;
+                    border-radius: 50%;
+                    width: 6px;
+                    height: 6px;
+                    background-color: var(--primary);
+				}
+		    }
+
+		    .details {
+		    	position: relative;
+		    	padding-left: 22px;
+		    	margin-bottom: 60px;
+		    	&:before {
+					content: "";
+					position: absolute;
+                    left:0;
+                    top: 10px;
+                    border-radius: 50%;
+                    width: 6px;
+                    height: 6px;
+                    background-color: var(--primary);
+				}
+		    	.text {
+			    	font-family: var(--secondary-font);
+			    	color: #3c3c3c;
+					font-weight: 600;
+					font-size: 18px;
+	                line-height: 25px;
+	                padding-right: 3px;
+	                font-feature-settings: 'pnum' on, 'lnum' on;
+		    	}
+		    	.details-content {
+		    		font-family: var(--secondary-font);
+			    	color: var(--primary);
+					font-weight: 600;
+					font-size: 18px;
+	                line-height: 25px;
+	                font-feature-settings: 'pnum' on, 'lnum' on;
+		    	}
+
+		    	ul {
+		    		border-left: 1px solid #d6d5d5;
+		    		li {
+		    			&::marker {
+		    				font-size: 10px;
+		    				color: var(--primary);
+		    			}
+		    			&:not(:last-child) {
+		    				margin-bottom: 8px;
+		    			}
+		    		}
+		    	}
+		    }		
+            
+            .list {
+                margin: 0;
+                padding-left: 20px;
+                padding-bottom: 40px; 
+                li {
+                    margin: 0;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 26px;
+					color: var(--text);
+					&::marker {
+	                	color: var(--primary);
+	                }
+	                &:not(:last-child) {
+	    				margin-bottom: 8px;
+	    			}
+				}
+            }
+
+            .button-apply {
+				cursor: pointer;
+            	margin-top: 120px;
+            	display: inline-block;
+            	border-radius: 4px;
+            	background-color: var(--primary);
+            	@media (max-width: 1024px) {
+            		margin-top: 50px;
+            	}
+            	a {
+            		display: inline-flex;
+            		padding: 18px 24px;
+					font-family: var(--secondary-font);
+					font-weight: bold;
+					font-size: 16px;
+					line-height: 19px;
+					text-align: center;
+					text-transform: uppercase;
+					color: #FFFFFF;
+					i {
+						padding-left: 12px; 
+					}
+            	}
+            }
+
+		}
+	}
+	
+}
