@@ -21,16 +21,13 @@
       }
     }
   }
-}
-#banner-header-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #000000;
-  opacity: 0.2;
-  margin-bottom: 50px;
+  .icon-card {
+    .elementor-widget-image-box {
+      .elementor-image-box-img {
+        display: block;
+      }
+    }
+  }
 }
 @media screen and (max-width: 767px) {
   #homepage-image-banner-header {
