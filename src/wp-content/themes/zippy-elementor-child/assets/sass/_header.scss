@@ -11,3 +11,29 @@
     }
   }
 }
+#banner-header-banner {
+  .wrap_header_banner {
+    height: 300px;
+    .row_site {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      .header_banner_el {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+}
+@media(min-width:768px) and (max-width:991px){
+    .logo-footer{
+      .brand_el{
+        .logo_mobile{
+          margin: 0 auto;
+        }
+      }
+    }
+}

@@ -9,24 +9,24 @@
   }
 }
 
-.porfolio{
-    table{
-        border: none;
-        tr td{
-            border-width: 1px 0px 1px 0px;
-        }
-    }
-}
-
-@media (min-width:992px) {
-    #about-us-image {
-  .elementor-widget-image {
-    img {
-      object-fit: cover;
-      object-position: center;
-      height: 500px;
-      width: 100%;
+.porfolio {
+  table {
+    border: none;
+    tr td {
+      border-width: 1px 0px 1px 0px;
     }
   }
-}   
+}
+
+@media (min-width: 992px) {
+  #about-us-image {
+    .elementor-widget-image {
+      img {
+        object-fit: cover;
+        object-position: center;
+        height: 500px;
+        width: 100%;
+      }
+    }
+  }
 }
